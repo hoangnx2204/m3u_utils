@@ -17,10 +17,11 @@ abstract class M3uUtils {
       }
     }
 
-    List<String> beautiProp(String propInput) {
+    ({String key, String value}) beautiProp(String propInput) {
       final String prop =
           propInput.replaceAll('"', '').replaceAll('\'', '').trim();
-      return prop.split('=');
+      final List<String> propSplit = prop.split('=');
+      return (key: propSplit.first, value: propSplit.sublist(1).join('='));
     }
 
     for (String part in m3uSplit) {
@@ -40,7 +41,7 @@ abstract class M3uUtils {
             'name': lineSplit.lastOrNull?.trim() ?? '',
             'duration': duration,
             for (var prop in namedProps)
-              beautiProp(prop).first: beautiProp(prop).sublist(1).join(),
+              beautiProp(prop).key: beautiProp(prop).value
           });
         } else {
           if (line.contains('://')) {
