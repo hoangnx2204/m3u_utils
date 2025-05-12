@@ -1,0 +1,13 @@
+#EXTM3U
+
+#EXTINF:183,The Beatles - Hey Jude
+file:///C:/Music/The_Beatles/Hey_Jude.mp3
+
+#EXTINF:245,Queen - Bohemian Rhapsody
+file:///C:/Music/Queen/Bohemian_Rhapsody.mp3
+
+#EXTINF:-1,BBC Radio 1 - Live Stream
+http://stream.example.com/bbc_radio1.m3u
+
+#EXTINF:200,Unknown Artist - Sample Track
+https://example.com/sample_track.mp3

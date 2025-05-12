@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "urls": [
+                "file:///C:/Music/The_Beatles/Hey_Jude.mp3"
+            ],
+            "name": "The Beatles - Hey Jude",
+            "duration": 183
+        },
+        {
+            "urls": [
+                "file:///C:/Music/Queen/Bohemian_Rhapsody.mp3"
+            ],
+            "name": "Queen - Bohemian Rhapsody",
+            "duration": 245
+        },
+        {
+            "urls": [
+                "http://stream.example.com/bbc_radio1.m3u"
+            ],
+            "name": "BBC Radio 1 - Live Stream",
+            "duration": -1
+        },
+        {
+            "urls": [
+                "https://example.com/sample_track.mp3"
+            ],
+            "name": "Unknown Artist - Sample Track",
+            "duration": 200
+        }
+    ],
+    "total": 4
+}
