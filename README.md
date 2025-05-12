@@ -1,4 +1,4 @@
-M3uParser parse m3u file to dart Map
+M3uUtils parse m3u file to dart Map
 
 ## Features
 parse m3u file to dart Map

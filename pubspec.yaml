@@ -1,7 +1,7 @@
 name: m3u_utils
 description: Parse m3u file into dart Map
-version: 1.0.0
-repository: https://github.com/hoangnx2204/m3u_parser
+version: 1.0.1
+repository: https://github.com/hoangnx2204/m3u_utils
 
 environment:
   sdk: ^3.0.0
