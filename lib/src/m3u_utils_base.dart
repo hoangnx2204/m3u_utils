@@ -20,7 +20,6 @@ abstract class M3uUtils {
     List<String> beautiProp(String propInput) {
       final String prop =
           propInput.replaceAll('"', '').replaceAll('\'', '').trim();
-      print('AppLog: $prop');
       return prop.split('=');
     }
 
